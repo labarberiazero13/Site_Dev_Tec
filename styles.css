@@ -2,15 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;    
-    color:rgb(176, 183, 190)
-    
+    color:rgb(176, 183, 190)  
 }
 
 ul {
     list-style: none;
     font-size: 25px;
-    font-style: italic
-    
+    font-style: italic   
 }
 
 a {
@@ -24,6 +22,21 @@ body {
     background-position: center center fixed;
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li{
+    padding: 15px;
+}
+
 .container {
     text-align: center;
 }
@@ -34,8 +47,7 @@ body {
 
 .container .name h5 {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;   
 }
 
 #about p {
@@ -45,7 +57,6 @@ body {
     font-size: 35px;
     font-style: oblique;
     color: orangered;
-
 }
 
 .form {
