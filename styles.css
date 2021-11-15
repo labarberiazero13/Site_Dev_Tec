@@ -7,7 +7,7 @@
 
 ul {
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     font-style: italic   
 }
 
@@ -124,6 +124,21 @@ header ul li a:hover{
     background-color: rgb(255, 255, 255);
 }
 
+@media only screen and (max-width: 768px) {
+    .form {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 480px) {
-    
+    .container .name h1 {
+        font-size: 30px;
+    }
+    .container .name h5 {
+        font-size: 15px;
+    }
+    #about p {
+           max-width: 80%;
+           text-align: justify;
+    }
 }
