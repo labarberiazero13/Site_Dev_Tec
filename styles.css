@@ -2,16 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;    
-    color:#f4cf0a;
-    font-family: 'Yuji Syuku', serif;
+    color:rgb(176, 183, 190)
     
 }
-
 
 ul {
     list-style: none;
     font-size: 25px;
     font-style: italic
+    
 }
 
 a {
@@ -34,5 +33,30 @@ body {
 }
 
 .container .name h5 {
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Road Rage', cursive;
+    font-size: 35px;
+    font-style: oblique;
+    color: orangered;
+
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 50%;
+}
+
+button input {
+    width: 15%;
 }
