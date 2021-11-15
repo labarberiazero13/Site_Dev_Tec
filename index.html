@@ -39,11 +39,11 @@ rel="stylesheet">
                 <h5>Dev Full Stack</h5>
              </div>
 
-             <div id="arrow">
-                <i class="fas fa-arrow-circle-down"></i>
+             <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fas fa-arrow-circle-down"></i>
              </div>
 
-             <div id="about">
+             <div style="display: none;" id="about">
                  <p>Atualmente estou cursando Dev Full Stack, em Gama Academy!
                     Buscando se especializar em Back - End.
                  </p>
@@ -61,5 +61,15 @@ rel="stylesheet">
          </section>
 
     </main>
+
+<script>
+    function displayAbout() {
+        var arrow = document.getElementById("animation");
+        arrow.classList.toggle("rotate");
+        var display = document.getElementById("about");
+        display.classList.toggle("active");
+    }
+</script>
+
 </body>
 </html>
