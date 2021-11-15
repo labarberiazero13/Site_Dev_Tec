@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;    
-    color:black;
+    color:#f4cf0a;
 }
 
 ul {
@@ -11,4 +11,12 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./progam.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    
 }
