@@ -3,10 +3,15 @@
     margin: 0;
     box-sizing: border-box;    
     color:#f4cf0a;
+    font-family: 'Yuji Syuku', serif;
+    
 }
+
 
 ul {
     list-style: none;
+    font-size: 25px;
+    font-style: italic
 }
 
 a {
@@ -18,5 +23,16 @@ body {
     background-image: url(./progam.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
-    
+}
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 60px;
+}
+
+.container .name h5 {
+    font-size: 25px;
 }
