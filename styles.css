@@ -2,12 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;    
-    color:rgb(176, 183, 190)  
+    color:rgb(255, 255, 255)  
 }
 
 ul {
     list-style: none;
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic   
 }
 
@@ -17,7 +17,7 @@ a {
 
 body {
     height: 100vh;
-    background-image: url(./progam.jpg);
+    background-image: url(./375426.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
 }
@@ -27,6 +27,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    margin-bottom: 200px;
 }
 
 header ul {
@@ -51,7 +52,7 @@ header ul li a:hover{
 }
 
 .container .name h1 {
-    font-size: 60px;
+    font-size: 90px;
 }
 
 .container .name h5 {
@@ -77,7 +78,7 @@ header ul li a:hover{
 
 .rotate {
     transform: rotate(180deg);
-    transition: 300ms;
+    transition: 600ms;
 }
 
 .active {
@@ -90,12 +91,13 @@ header ul li a:hover{
     font-family: 'Road Rage', cursive;
     font-size: 35px;
     font-style: oblique;
-    color: orangered;
+    color: rgb(252, 134, 0);
 }
 
 .form {
     width: 40%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .form input {
@@ -122,4 +124,6 @@ header ul li a:hover{
     background-color: rgb(255, 255, 255);
 }
 
-
+@media only screen and (max-width: 480px) {
+    
+}
