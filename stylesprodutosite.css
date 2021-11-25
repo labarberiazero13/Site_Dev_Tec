@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    
  }
 .menu ul li{
     display: inline-block;
@@ -10,4 +10,25 @@
     position: fixed;
     top: 0px;
     right: 0;
+}
+img{
+    max-width: 100%;  
+    display: block;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.produtos > div{
+    flex: 1 1 100px;
+    margin: 50px;
+}
+.produtos{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+
+    
 }
