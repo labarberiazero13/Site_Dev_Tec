@@ -8,7 +8,7 @@
   text-align: center;
   line-height: 40px;
   border-radius: 10px;
-  margin: 1px;  
+    
   transition: 400ms;
 }
 .menu ul li:hover{

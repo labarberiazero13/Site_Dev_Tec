@@ -127,4 +127,17 @@ body {
     }
 }
 
+.sobre{
+    text-align: center;
+        
+}
+.sobre h1{
+    color: orangered;
+}
+.sobre p{
+    color: white;
+}
+.sobre{
+    margin-top: 200px;
+}
   
