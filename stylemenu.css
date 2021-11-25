@@ -9,6 +9,7 @@
   line-height: 40px;
   border-radius: 10px;
   margin: 1px;  
+  transition: 400ms;
 }
 .menu ul li:hover{
     background-color: rgb(236, 159, 86);

@@ -14,18 +14,22 @@ rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylemenu.css">  
 </head>
+
 <body>
+
     <header>
+
         <div>
            <img src="./imagens logo/logo.png" alt="Logo Lucas Garcia">
         </div>
-        <div>
+
+        <div>            
             <nav class="menu">
-       <ul>
+         <ul>
             <li>
                 <a href="index.html">Início</a>
-            </li>
-            <li>
+            </li>           
+            <li>                
                 <a href="">Serviços</a>
                 <ul class="serviços">
                     <li><b>Desenvolvimento de Sites</li>
@@ -41,7 +45,10 @@ rel="stylesheet">
             </li>
             <li>
                 <a href="https://wa.me/13997138889">Whatsapp</a>
-            </li>       
+            </li> 
+            <li>
+                <a href="sobre">Sobre</a>
+            </li>      
         </ul>
             </nav>
         </div>
@@ -53,21 +60,22 @@ rel="stylesheet">
              <div class="name">
                 <h1>Precisa de uma solução tecnológica para o dia a dia ?</h1>
              </div>
-
              <div onclick="displayAbout()" id="arrow">
                 <i id="animation" class="fas fa-arrow-circle-down"></i>
              </div>
-
              <div style="display: none;" id="about">
                  <p>Dev-Tec está aqui pra te ajudar! <br>
-                     Desenvolvemos seu software com rapidez e eficiência!</p>
+                 Desenvolvemos seu software com rapidez e eficiência!</p>
              </div>
              <div class="produtos">
-               <img src="./imagens produtos/site_adobespark.png" alt="produto-site">
-               <img src="./imagens produtos/app.png" alt="produto-app">
-               <img src="./imagens produtos/e-commerce_adobespark.png" alt="produto-e-commerce">
+                 <ul>
+                    <li>
+               <a href="produtosite.html"><img src="./imagens produtos/site_adobespark.png" alt="produto-site"></a>
+               <a href="produtoapp.hmtl"><img src="./imagens produtos/app.png" alt="produto-app"></a>
+               <a href="produtoe-commerce"><img src="./imagens produtos/e-commerce_adobespark.png" alt="produto-e-commerce"></a>
+               </li>
+               </ul>
             </div>
-
              <div class="form">
                  <div>
                      <p>Solicite seu orçamento sem compromisso</p>
@@ -78,7 +86,6 @@ rel="stylesheet">
                  </form>
              </div>
          </section>
-
     </main>
 
 <script>
